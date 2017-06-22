@@ -150,8 +150,13 @@ aside p{
     display: inline-block;
 }
 
+aside li p{
+    margin: 10px 0px 10px 20px;
+}
+
 aside .point{
     margin-left: 25px;
+    display: inline-block;
 }
 
 aside{
