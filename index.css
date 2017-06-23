@@ -37,7 +37,7 @@ header img{
     float: right;
     text-align: center;
     line-height: 2.5em;
-    margin: 60px 400px 40px 10px;
+    margin: 65px 200px 25px 0px;
 }
 
 main h1{
@@ -45,7 +45,7 @@ main h1{
     font-size: 30px;
     color: #31b2ba;
     border-bottom: 3px solid #212121;
-    margin: 10px 20px;
+    margin: 0px 0px 25px 20px;
     padding: 8px;
 }
 
@@ -90,6 +90,7 @@ main img{
 .body-cursos h3{
     font-weight: bold;
 }
+
 .point{
     color: #31b2ba;
     display: inline;
@@ -114,7 +115,6 @@ p{
 .skills-right{
     float: right;
     display: inline-block;
-    margin-right: 400px;
 }
 
 .skills-left{
@@ -133,7 +133,6 @@ aside h1{
     background-color: #31b2ba;
     color: #ffffff;
     padding: 2px;
-    width: 80%;
     height: 100%;
     margin: 30px 20px;
 }
@@ -141,17 +140,22 @@ aside h1{
 aside img{
     width: 15px;
     height: 15px;
+    margin-left: 25px;
     display: inline-block;
 }
 
 aside p{
-    margin: 10px 20px 10px 20px;
+    margin: 10px -10px 10px 5px;
     width: 80%;
     display: inline-block;
 }
 
+.texto-perfil{
+    margin-left: 25px;
+}
+
 aside li p{
-    margin: 10px 0px 10px 20px;
+    margin: 10px -10px 10px 20px;
 }
 
 aside .point{
@@ -161,17 +165,16 @@ aside .point{
 
 aside{
     float: left;
-    width: 24%;
+    width: 27%;
+    border-right: 3px solid #212121;
 }
 
 main{
     float: right;
-    width: 74%;
+    width: 70%;
     margin: 20px 20px 20px 0px;
 }
 
-.linha-vertical{
-    border-left: 3px solid #212121;
-    height: 770px;
-    float: left;
+body{
+    margin: 0px 200px 0px 200px;
 }
